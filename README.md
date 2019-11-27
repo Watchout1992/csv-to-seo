@@ -20,10 +20,11 @@ CREATE TABLE `csv_seo` (
 
 3- Modify seo.csv content to match your website. please keep the same column format.
 
-4- Setup cron job on whatever interval you like and make run this comand
+4- Setup cron job on whatever interval you like and make it run this command
 ```shell script
 /php /path/to/cron.php
 ```
+or just open run cron.php on your server whenever you update the seo.csv file
 
 ## Usage
 
