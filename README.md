@@ -1,4 +1,4 @@
-# csv-to-seo
+# CSV to SEO
 Easy to use CSV file with PHP and MYSQL to import SEO content quickly
 
 ## Installation
