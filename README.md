@@ -8,7 +8,7 @@ Easy to use CSV file with PHP and MYSQL to import SEO content quickly
 
 2- Create new table call it csv_seo
 
-```bash
+```sql
 CREATE TABLE `csv_seo` (
   `csv_seo_id` int(11) NOT NULL,
   `page_url` text NOT NULL,
@@ -20,6 +20,10 @@ CREATE TABLE `csv_seo` (
 
 3- Modify seo.csv content to match your website. please keep the same column format.
 
+4- Setup cron job on whatever interval you like and make run this comand
+```shell script
+/php /path/to/cron.php
+```
 
 ## Usage
 
