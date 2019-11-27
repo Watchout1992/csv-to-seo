@@ -23,7 +23,7 @@ CREATE TABLE `csv_seo` (
 
 ## Usage
 
-```python
+```php
 <?php 
 require_once 'path/to/csv-to-seo/csv-to-seo.php';
 
